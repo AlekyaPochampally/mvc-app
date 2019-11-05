@@ -20,5 +20,5 @@
 [https://github.com/AlekyaPochampally/mvc-app]
 
 
-![Team Members](/images/team.png)
+![Team Members](/images/team.PNG)
 
