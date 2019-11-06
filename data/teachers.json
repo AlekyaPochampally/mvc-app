@@ -1,0 +1,57 @@
+
+[{
+    "_id":1,
+    "Given":"Rogers",
+    "Family":"micheal",
+    "Email":"mprogers@gmail.com",
+    "Salary":25000,
+    "GitHub":""
+    
+},
+{
+    "_id":1,
+    "Given":"dnise",
+    "Family":"case",
+    "Email":"case@gmail.com",
+    "Salary":25000,
+    "GitHub":""
+    
+},
+{
+    "_id":1,
+    "Given":"sagar",
+    "Family":"demo",
+    "Email":"sagardemo@gmail.com",
+    "Salary":25000,
+    "GitHub":""
+    
+},
+{
+    "_id":1,
+    "Given":"yugandher",
+    "Family":"mamidi",
+    "Email":"mamidiyugi@gmail.com",
+    "Salary":25000,
+    "GitHub":""
+    
+},
+{
+    "_id":1,
+    "Given":"bharath",
+    "Family":"male",
+    "Email":"malebharath@gmail.com",
+    "Salary":25000,
+    "GitHub":""
+    
+},
+
+{
+    "_id":1,
+    "Given":"Rogers",
+    "Family":"micheal",
+    "Email":"mprogers@gmail.com",
+    "Salary":25000,
+    "GitHub":""
+    
+}]
+
