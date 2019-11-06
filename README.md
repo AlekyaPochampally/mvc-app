@@ -16,7 +16,9 @@
 [https://github.com/AlekyaPochampally/mvc-app]
 
 ## link to Demo site
-[http://localhost:3004/]
+(work in progress)
+[https://github.com/AlekyaPochampally/mvc-app]
 
-![Team Members](/images/team.png)
+
+![Team Members](/images/team.PNG)
 
