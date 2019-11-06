@@ -19,3 +19,4 @@ module.exports = (app) => {
 
   console.log('END Data Seeder. Sample data read and verified.')
 }
+
