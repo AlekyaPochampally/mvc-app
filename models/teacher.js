@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose')
 
-const courseSchema = new mongoose.Schema({
+const TeacherSchema = new mongoose.Schema({
     _id: {
         type: Number,
         required: true
@@ -35,5 +35,5 @@ const courseSchema = new mongoose.Schema({
       
       }
     })
-    module.exports = mongoose.model('section', sectionSchema)
+    module.exports = mongoose.model('teacher', TeacherSchema)
     

@@ -9,7 +9,7 @@
 
 const mongoose = require('mongoose')
 
-const courseSchema = new mongoose.Schema({
+const studentSchema = new mongoose.Schema({
    
   _id: {
     type: Number,
@@ -36,7 +36,7 @@ const courseSchema = new mongoose.Schema({
     default: 'xxx@gmail.com'
   },
   GPA: {
-    type: number,
+    type: Number,
     required: true,
     default: 0
   },
