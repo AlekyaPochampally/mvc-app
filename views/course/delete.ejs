@@ -1,0 +1,30 @@
+<br>
+<br>
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12">
+
+      <h2>Confirm deletion of course</h2>
+      <br>
+      <br> ID: <%=  course._id %>
+      <br> Email: <%=course.email%>
+      <br> Given: <%=course.given%>
+      <br> Family: <%=course.family%>
+      <br> City: <%=course.city %>
+      <br> State: <%=course.state %>
+      <br> Zip: <%=course.zip %>
+      <br> Country: <%=course.country %>
+      <hr>
+      
+      <form method="get" action="/course">
+        <input type="submit" value="Return to list" class="btn btn-caution" />
+      </form>
+
+
+      <form method="POST" action="/course/delete/<%= course._id %>">
+        <input type="submit" value="Delete this item" class="btn btn-danger pull-right" />
+      </form>
+
+    </div>
+  </div>
+</div>
