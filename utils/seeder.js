@@ -14,32 +14,32 @@ module.exports = (app) => {
   const td={}
   
   db.courses = new Datastore() // new object property
-  sd.sections=new Datastore()
+  sd.section=new Datastore()
   std.students=new Datastore()
   td.teachers=new Datastore()
 
   db.courses.loadDatabase() // call the loadDatabase method
-  sd.sections.loadDatabase()
+  sd.section.loadDatabase()
   std.students.loadDatabase()
   td.teachers.loadDatabase()
 
   // insert the sample data into our datastore
   db.courses.insert(courseData)
-  sd.sections.insert(sectionData)
+  sd.section.insert(sectionData)
   std.students.insert(studentsData)
   td.teachers.insert(teachersData)
 
   // initialize app.locals (these objects are available to the controllers)
   app.locals.courses = db.courses.find(courseData)
-  app.locals.sections=sd.sections.find(sectionData)
+  app.locals.section=sd.section.find(sectionData)
   app.locals.students=std.students.find(studentsData)
   app.locals.teachers=td.teachers.find(teachersData)
 
 
   console.log(`${app.locals.courses.query.length} courses seeded`)
-  console.log(`${app.locals.sections.query.length} section seeded`)
-  console.log(`${app.locals.sections.query.length} student seeded`)
-  console.log(`${app.locals.sections.query.length} Teacher seeded`)
+  console.log(`${app.locals.section.query.length} section seeded`)
+  console.log(`${app.locals.section.query.length} student seeded`)
+  console.log(`${app.locals.section.query.length} Teacher seeded`)
   console.log('END Data Seeder. Sample data read and verified.')
 }
 

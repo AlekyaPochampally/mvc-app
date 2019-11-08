@@ -9,7 +9,7 @@
 
 const mongoose = require('mongoose')
 
-const courseSchema = new mongoose.Schema({
+const sectionSchema = new mongoose.Schema({
     _id: {
         type: Number,
         required: true
