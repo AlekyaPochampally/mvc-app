@@ -30,7 +30,7 @@ router.use('/dev', require('../controllers/developer.js'))
 router.use('/course', require('../controllers/course.js'))
 router.use('/teacher', require('../controllers/teacher.js'))
 router.use('/section', require('../controllers/section.js'))
-router.use('/student', require('../controllers/student.js'))
+router.use('/student', require('../controllers/Student.js'))
 router.use((req, res, next) => {
   const error = new Error('Not Found')
   error.status = 404

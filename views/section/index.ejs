@@ -9,11 +9,11 @@
 
       <h2>Recent entries</h2>
       <p>There are
-        <%= section.length %> section.
+        <%= sections.length %> section.
         <br>
       </p>
-      <% for (let i = section.length-1; i >= 0; i--) {   
-        section = section[i];   %>
+      <% for (let i = sections.length-1; i >= 0; i--) {   
+        section = sections[i];   %>
       <div class="panel panel-default">
         <div class="panel-heading"></div>
         <div class="text-muted pull-right"></div>

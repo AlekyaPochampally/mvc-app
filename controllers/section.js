@@ -35,14 +35,14 @@ api.get('/findone/:id', (req, res) => {
 // GET to this controller base URI (the default)
 api.get('/', (req, res) => {
   res.render('section/index.ejs', {
-    section: req.app.locals.section.query
+    sections: req.app.locals.sections.query
   })
 })
 
 // GET create
 api.get('/create', (req, res) => {
   res.render('section/create', {
-    section: req.app.locals.section.query,
+    sections: req.app.locals.sections.query,
     section: new SectionModel()
   })
 })
@@ -50,7 +50,7 @@ api.get('/create', (req, res) => {
 // GET /delete/:id
 api.get('/delete/:id', (req, res) => {
   const id = parseInt(req.params.id)
-  const data = req.app.locals.section.query
+  const data = req.app.locals.sections.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
   res.render('section/delete', {
@@ -61,7 +61,7 @@ api.get('/delete/:id', (req, res) => {
 // GET /details/:id
 api.get('/details/:id', (req, res) => {
   const id = parseInt(req.params.id)
-  const data = req.app.locals.section.query
+  const data = req.app.locals.sections.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
   res.render('section/details', {
@@ -72,7 +72,7 @@ api.get('/details/:id', (req, res) => {
 // GET one
 api.get('/edit/:id', (req, res) => {
   const id = parseInt(req.params.id)
-  const data = req.app.locals.section.query
+  const data = req.app.locals.sections.query
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
   res.render('section/edit', {

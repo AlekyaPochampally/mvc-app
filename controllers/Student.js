@@ -35,7 +35,8 @@ api.get('/findone/:id', (req, res) => {
 // GET to this controller base URI (the default)
 api.get('/', (req, res) => {
   res.render('student/index.ejs', {
-    students: req.app.locals.students.query
+    students: req.app.locals.students.query,
+    student : new studentModel()
   })
 })
 

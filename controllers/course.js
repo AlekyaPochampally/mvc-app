@@ -7,8 +7,8 @@
 */
 const express = require('express')
 const api = express.Router()
-const Model = require('../models/course.js')
-const course = require('lodash.find')
+const CourseModel = require('../models/course.js')
+const find = require('lodash.find')
 const notfoundstring = 'Could not find course with id='
 
 //finding all
@@ -39,15 +39,16 @@ const notfoundstring = 'Could not find course with id='
   api.get('/create', (req, res) => {
     res.render('course/create', {
       courses: req.app.locals.courses.query,
-      course: new CourseSchema()
+      course: new CourseModel()
     })
   })
   
   // GET /delete/:id
   api.get('/delete/:id', (req, res) => {
-    const id = parseInt(req.params.id)
+    const id = Number(req.params.id)
     const data = req.app.locals.courses.query
     const item = find(data, { _id: id })
+    console.log(item)
     if (!item) { return res.end(notfoundstring + id) }
     res.render('course/delete', {
       course: item
@@ -82,7 +83,7 @@ const notfoundstring = 'Could not find course with id='
   api.post('/save', (req, res) => {
     console.info(`Handling POST ${req}`)
     console.debug(JSON.stringify(req.body))
-    const item = new CourseSchema()
+    const item = new CourseModel()
     console.info(`NEW ID ${req.body._id}`)
     item._id = parseInt(req.body._id)
     item.schoolNumber = req.body.schoolNumber
