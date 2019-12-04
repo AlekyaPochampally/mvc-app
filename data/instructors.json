@@ -1,0 +1,82 @@
+[
+    {
+        "_id": 111,
+        "given": "Denise",
+        "family": "Case",
+        "email": "dcase@nwmissouri.edu",
+        "salary": 30000,
+        "github": "denisecase"
+    },
+    {
+        "_id": 222,
+        "given": "Bharat",
+        "family": "Male",
+        "email": "bharat@nwmissouri.edu",
+        "salary": 32000,
+        "github": "bharatmale"
+    },
+    {
+        "_id": 333,
+        "given": "Prasanna",
+        "family": "Potnuru",
+        "email": "prasanna@nwmissouri.edu",
+        "salary": 20000,
+        "github": "prasannapotnuru"
+    },
+    {
+        "_id": 444,
+        "given": "Abhilash",
+        "family": "Yayi",
+        "email": "abhilashy@nwmissouri.edu",
+        "salary": 28000,
+        "github": "abhiyayi"
+    },
+    {
+        "_id": 555,
+        "given": "Abhilash",
+        "family": "Yayi",
+        "email": "abhilashy@nwmissouri.edu",
+        "salary": 28000,
+        "github": "abhiyayi"
+    },
+    {
+        "_id": 666,
+        "given": "Raghu",
+        "family": "Nandan",
+        "email": "raghu@nwmissouri.edu",
+        "salary": 42000,
+        "github": "ragunandan"
+    },
+    {
+        "_id": 777,
+        "given": "Prudhvi",
+        "family": "raju",
+        "email": "prudhviraju@nwmissouri.edu",
+        "salary": 28000,
+        "github": "prudhviraj"
+    },
+    {
+        "_id": 888,
+        "given": "Anil",
+        "family": "Bomma",
+        "email": "anilb@nwmissouri.edu",
+        "salary": 55000,
+        "github": "anilbomma"
+    },
+    {
+        "_id": 999,
+        "given": "Chaitanya",
+        "family": "Popuri",
+        "email": "chaitanyap@nwmissouri.edu",
+        "salary": 28000,
+        "github": "chaitanyapopuri"
+    },
+    {
+        "_id": 1111,
+        "given": "Sadiq",
+        "family": "Jaffar",
+        "email": "jafars@nwmissouri.edu",
+        "salary": 44000,
+        "github": "jafarsadiq"
+    }
+]

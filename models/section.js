@@ -2,56 +2,57 @@
 *  Developer model
 *  Describes the characteristics of each attribute in a developer resource.
 *
-* @author Denise Case <denisecase@gmail.com>
+* @author Bharat Reddy <bharatreddy1994@gmail.com>
 * @requires mongoose
 *
 */
-
 const mongoose = require('mongoose')
 
-const sectionSchema = new mongoose.Schema({
-    _id: {
-        type: Number,
-        required: true
-        
-      },
-      SectionNumber: {
-        type: String,
-        minlength: 2,
-        maxlength: 2,
-        required: true,
-        unique: true
-      },
-      Days: {
-        type: String,
-        minlength: 2,
-        maxlength: 3,
-        required: true,
-        
-        
-      },
-      StartTime: {
-        type: String,
-        minlength: 4,
-        maxlength: 4,
-        required: false,
-       
-      },
-      RoomNumber: {
-        type: String,
-        required: true,
-       
-      },
-      InstructorID: {
-        type: Number,
-        required: true,
-      
-      },
-      CourseID: {
-        type: Number,
-        required: true,
-        
-      }
-    })
-    module.exports = mongoose.model('section', sectionSchema)
-    
+const SectionSchema = new mongoose.Schema({
+
+  _id: {
+    type: Number,
+    required: true
+  },
+  sectionNumber: {
+    type: String,
+    minlength: 2,
+    maxlength: 2,
+    required: true,
+    unique: true
+  },
+  days: {
+    type: String,
+    minlength: 1,
+    maxlength: 5,
+    required: true,
+    default: 'MWF',
+    unique:true
+  },
+  startTime: {
+    type: Number,
+    minlength: 3,
+    maxlength: 4,
+    required: true,
+    default: '1100',
+    unique:true
+  },
+  roomNumber: {
+    type: String,
+    minlength: 1,
+    maxlength: 100,
+    required: true,
+    default: 'CH 1200',
+    unique:true
+  },
+  instructorId: {
+    type: Number,
+    required:true
+  },
+  courseId: {
+    type: Number,
+    required: true
+  }
+
+})
+module.exports = mongoose.model('Section', SectionSchema)

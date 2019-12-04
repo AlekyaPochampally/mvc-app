@@ -1,67 +1,102 @@
 [
     {
-      "_id": 1,
-      "Given": "Dheeraj",
-      "Family": "Edupuganti",
-      "Email": "Dheeraj@gmail.com",
-      "GPA": 4.0,
-      "GitHub": "Dheeraj@github.com",
-      "WebSite": "Dheeraj@github.com",
-      "SectionID":2
-      
+        "_id": 501,
+        "given": "Abhi",
+        "family": "Omkar",
+        "email": "abhiteja@gmail.com",
+        "gpa": 3.9,
+        "github": "github.com/abhiteja6",
+        "website": "www.abhit.com",
+        "sectionId": 1
     },
     {
-        "_id": 2,
-        "Given": "Jyothsna",
-        "Family": "mathi",
-        "Email": "jyothsna323@gmail.com",
-        "GPA": 3.0,
-        "GitHub": "jyothsna2608@github.com",
-        "WebSite": "jyothsna2608@github.com",
-        "SectionID":4
-        
-      },
-      {
-        "_id": 3,
-        "Given": "Chandu",
-        "Family": "gampa",
-        "Email": "chandu@gmail.com",
-        "GPA": 4.3,
-        "GitHub": "chandu@ggithub.com",
-        "WebSite": "chandu@github.com",
-        "SectionID":1
-        
-      },
-      {
-        "_id": 4,
-        "Given": "santosh",
-        "Family": "bollena",
-        "Email": "santosh@gmail.com",
-        "GPA": 4.0,
-        "GitHub": "santosh@github.com",
-        "WebSite":  "santosh@github.com",
-        "SectionID":3
-        
-      },
-      {
-        "_id": 5,
-        "Given": "sai",
-        "Family": "mathi",
-        "Email": "mathi@gmail.com",
-        "GPA": 4.0,
-        "GitHub": "mathi@github.com",
-        "WebSite": "mathi@github.com",
-        "SectionID":2
-        
-      },
-      {
-        "_id": 6,
-        "Given": "aishu",
-        "Family": "dasari",
-        "Email": "dasari@gmail.com",
-        "GPA": 3.8,
-        "GitHub": "dasari@github.com",
-        "WebSite": "dasari@github.com",
-        "SectionID":3
-        
-      }]
+        "_id": 502,
+        "given": "Prudhvi",
+        "family": "Raj",
+        "email": "prudhvij@gmail.com",
+        "gpa": 3.5,
+        "github": "github.com/prudhvij",
+        "website": "www.prudhvij.com",
+        "sectionId": 2
+    },
+    {
+        "_id": 503,
+        "given": "Prudhvi",
+        "family": "Teja",
+        "email": "prudhviteja@gmail.com",
+        "gpa": 3.7,
+        "github": "github.com/prudhvitej",
+        "website": "www.prudhvitj.com",
+        "sectionId": 3
+    },
+    {
+        "_id": 504,
+        "given": "Sai",
+        "family": "Kanth",
+        "email": "saikth@gmail.com",
+        "gpa": 3.8,
+        "github": "github.com/kantsai",
+        "website": "www.saikth.com",
+        "sectionId": 3
+    },
+    {
+        "_id": 505,
+        "given": "Krishna",
+        "family": "Sai",
+        "email": "kts@gmail.com",
+        "gpa": 4,
+        "github": "github.com/kts",
+        "website": "www.kts.com",
+        "sectionId": 4
+    },
+    {
+        "_id": 506,
+        "given": "Yugi",
+        "family": "Mamidi",
+        "email": "mamaidiyu@gmail.com",
+        "gpa": 3.9,
+        "github": "github.com/mamidiyugi",
+        "website": "www.mamidiyugi.com",
+        "sectionId": 5
+    },
+    {
+        "_id": 507,
+        "given": "Tarun",
+        "family": "Jorrigala",
+        "email": "tarunj@gmail.com",
+        "gpa": 3.5,
+        "github": "github.com/tarunj",
+        "website": "www.tarunj.com",
+        "sectionId": 6
+    },
+    {
+        "_id": 508,
+        "given": "Bharath",
+        "family": "Reddy",
+        "email": "bharathr@gmail.com",
+        "gpa": 4,
+        "github": "github.com/bharathr",
+        "website": "www.bharathr.com",
+        "sectionId": 3
+    },
+    {
+        "_id": 509,
+        "given": "Anil",
+        "family": "Bomma",
+        "email": "bommanil@gmail.com",
+        "gpa": 4,
+        "github": "github.com/bommanil",
+        "website": "www.bommanil.com",
+        "sectionId": 7
+    },
+    {
+        "_id": 510,
+        "given": "Deepak",
+        "family": "Malampati",
+        "email": "deepakm@gmail.com",
+        "gpa": 4,
+        "github": "github.com/deepakm",
+        "website": "www.deepakm.com",
+        "sectionId": 6
+    }
+]

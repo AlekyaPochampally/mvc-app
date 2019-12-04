@@ -1,57 +1,65 @@
 [
     {
-      "_id": 1,
-      "SchoolNumber": "111",
-      "CourseNumber": "123",
-      "Name": "WebApps",
-      "inSpring": true,
-      "inSummer": false,
-      "inFall": true
-      
-    },
-    {
-        "_id": 2,
-        "SchoolNumber": "11",
-        "CourseNumber": "234",
-        "Name": "Java",
+        "_id": 90,
+        "schoolNumber": "44",
+        "courseNumber": "663",
+        "name": "Developing Web Apps and Services",
         "inSpring": true,
-        "inSummer": true,
-        "inFall": true
-    },
-    {
-        "_id": 3,
-        "SchoolNumber": "22",
-        "CourseNumber": "134",
-        "Name": "Data Bases",
-        "inSpring": false,
-        "inSummer": true,
-        "inFall": true
-    },
-    {
-        "_id": 4,
-        "SchoolNumber": "33",
-        "CourseNumber": "567",
-        "Name": "Science",
-        "inSpring": false,
-        "inSummer": true,
+        "inSummer": false,
         "inFall": false
     },
     {
-        "_id": 5,
-        "SchoolNumber": "33",
-        "CourseNumber": "456",
-        "Name": "Forensics",
+        "_id": 91,
+        "schoolNumber": "44",
+        "courseNumber": "460",
+        "name": "Database Systems",
         "inSpring": true,
+        "inSummer": false,
+        "inFall": false
+    },
+    {
+        "_id": 92,
+        "schoolNumber": "44",
+        "courseNumber": "542",
+        "name": "Object Oriented Programming",
+        "inSpring": true,
+        "inSummer": false,
+        "inFall": false
+    },
+    {
+        "_id": 93,
+        "schoolNumber": "44",
+        "courseNumber": "663",
+        "name": "Developing Web Apps and Services",
+        "inSpring": false,
+        "inSummer": false,
+        "inFall": true
+    },
+    {
+        "_id": 94,
+        "schoolNumber": "44",
+        "courseNumber": "460",
+        "name": "Database Systems",
+        "inSpring": false,
+        "inSummer": false,
+        "inFall": true
+    },
+    {
+        "_id": 95,
+        "schoolNumber": "44",
+        "courseNumber": "542",
+        "name": "Object Oriented Programming",
+        "inSpring": false,
         "inSummer": true,
         "inFall": true
     },
     {
-        "_id": 6,
-        "SchoolNumber": "44",
-        "CourseNumber": "345",
-        "Name": "Cyber Security",
+        "_id": 96,
+        "schoolNumber": "44",
+        "courseNumber": "663",
+        "name": "Developing Web Apps and Services",
         "inSpring": false,
         "inSummer": true,
-        "inFall": true
+        "inFall": false
     }
 ]

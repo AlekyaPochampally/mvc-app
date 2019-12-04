@@ -1,50 +1,52 @@
 <!-- main - a row holds columns -->
 <div class=row>
-    <div class="col col-xs-12">
-  
-      <div class="form-group">
-        <label for="SectionNumber">SectionNumber</label>
-        <input type="text" class="form-control" id="SectionNumber" name="SectionNumber" value="<%= section.SectionNumber %>" required>
-      </div>
-  
-      <div class="form-group">
-        <label for="Days">Days</label>
-        <input type="text" class="form-control" id="Days" name="Days" value="<%= section.Days %>" required>
-      </div>
-  
-      <div class="form-group">
-        <label for="StartTime">StartTime</label>
-        <input type="number" class="form-control" id="StartTime" name="StartTime" value="<%= section.StartTime %>" required>
-      </div>
-  
-      <div class="form-group">
-        <label for="RoomNumber">RoomNumber</label>
-        <input type="text" class="form-control" id="RoomNumber" name="RoomNumber" value="<%= section.RoomNumber %>" required>
-      </div>
-  
-      <div class="form-group">
-        <label for="InstructorID">TeacherID</label>
-        <input type="number" class="form-control" id="TeacherID" name="TeacherID" value="<%= section.TeacherID %>" required>
-      </div>
-  
-      <div class="form-group">
-        <label for="CourseID">CourseID</label>
-        <input type="number" class="form-control" id="CourseID" name="CourseID" value="<%= section.CourseID %>" required>
-      </div>
-      
-  
+  <div class="col col-xs-12">
+
+    <div class="form-group">
+      <label for="sectionNumber">SectionNumber</label>
+      <input type="text" class="form-control" id="sectionNumber" name="sectionNumber" value="<%= section.sectionNumber %>"
+        required>
     </div>
+
+    <div class="form-group">
+      <label for="days">Days</label>
+      <input type="text" class="form-control" id="days" name="days" value="<%= section.days %>">
+    </div>
+
+    <div class="form-group">
+      <label for="startTime">StartTime</label>
+      <input type="number" class="form-control" id="startTime" name="startTime" value="<%= section.startTime %>">
+    </div>
+
+    <div class="form-group">
+      <label for="roomNumber">RoomNumber</label><br />
+      <input type="text" class="form-control" id="roomNumber" name="roomNumber" value="<%= section.roomNumber %>">
+    </div>
+
+    <div class="form-group">
+      <label for="instructorId">InstructorId</label><br />
+      <input type="number" class="form-control" id="instructorId" name="instructorId" value="<%= section.instructorId %>">
+    </div>
+
+    <div class="form-group">
+      <label for="courseId">CourseId</label><br />
+      <input type="number" class="form-control" id="courseId" name="courseId" value="<%= section.courseId %>">
+    </div>
+
+
   </div>
-  
-  <!-- PUT CLIENT SIDE CODE HERE -->
-  <script>
-   
-    // prevent submission when hitting enter key - optional, but user-friendly 
-    document.forms[0].onkeypress = function (e) {
-      var key = e.charCode || e.keyCode || 0;
-      if (key == 13) {
-        e.preventDefault();
-      }
+</div>
+
+<!-- PUT CLIENT SIDE CODE HERE -->
+<script>
+
+  // prevent submission when hitting enter key - optional, but user-friendly 
+  document.forms[0].onkeypress = function (e) {
+    var key = e.charCode || e.keyCode || 0;
+    if (key == 13) {
+      e.preventDefault();
     }
+  }
+
   // END CLIENT SIDE CODE  (close the script tag)
-  </script>
+</script>

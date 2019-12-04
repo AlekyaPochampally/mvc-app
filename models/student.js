@@ -1,59 +1,61 @@
 /**
-*  Developer model
-*  Describes the characteristics of each attribute in a developer resource.
+*  Student model
+*  Describes the characteristics of each attribute in a Student resource.
 *
-* @author Denise Case <denisecase@gmail.com>
+* @author Omkar Abhiteja Badda <s537489@nwmissouri.edu>
 * @requires mongoose
 *
 */
-
 const mongoose = require('mongoose')
 
-const studentSchema = new mongoose.Schema({
-   
-  _id: {
-    type: Number,
-    required: true
-    
-  },
-  Given: {
-    type: String,
-    required: false,
-    default:"xxxx",
-    unique: false
-  },
-  Family: {
-    type: String,
-    required: false,
-    unique: true
-    
-  },
-  Email: {
-    type: String,
-    minlength: 3,
-    maxlength: 100,
-    required: false,
-    default: 'xxx@gmail.com'
-  },
-  GPA: {
-    type: Number,
-    required: true,
-    default: 0
-  },
-  GitHub: {
-    type: String,
-    required: true,
-    
-  },
-  WebSite: {
-    type: String,
-    required: true,
-    
-  },
-  SectionID: {
-    type: String,
-    required: true,
-    
-  }
+const StudentSchema = new mongoose.Schema({
+
+    _id: {
+        type: Number,
+        required: true
+    },
+    given: {
+        type: String,
+        minlength: 3,
+        maxlength: 100,
+        required: true
+    },
+    family: {
+        type: String,
+        minlength: 3,
+        maxlength: 100,
+        required: true
+    },
+    email: {
+        type: String,
+        minlength: 5,
+        maxlength: 100,
+        required: true,
+        unique: true
+    },
+    gpa: {
+        type: Number,
+        minimum: 0,
+        maximum: 4,
+        required: true,
+        default: '0.0'
+    },
+    github: {
+        type: String,
+        minlength: 2,
+        maxlength: 100,
+        required: true,
+        unique: true
+    },
+    website: {
+        type: String,
+        minlength: 5,
+        maxlength: 100,
+        unique: true
+    },
+    sectionId: {
+        type: Number,
+        required: true
+    }
 })
-module.exports = mongoose.model('student', studentSchema)
+module.exports = mongoose.model('Student', StudentSchema)
