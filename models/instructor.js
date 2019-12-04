@@ -2,7 +2,7 @@
 *  Instructor model
 *  Describes the characteristics of each attribute in a Instructor resource.
 *
-* @author Yugandhar Mamidi <s537159@nwmissouri.edu>
+* @author Sai chandu Gampa <s536883@nwmissouri.edu>
 * @requires mongoose
 *
 */

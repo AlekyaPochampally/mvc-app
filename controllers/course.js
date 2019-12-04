@@ -2,7 +2,7 @@
 *  Courses controller
 *  Handles requests related to course resources.
 *
-* @author Anil Bomma <s537161@nwmissouri.edu>
+* @author Alekhya Pochampally <s56776@nwmissouri.edu>
 *
 */
 const express = require('express')

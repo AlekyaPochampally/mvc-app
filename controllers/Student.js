@@ -2,7 +2,7 @@
 *  Student controller
 *  Handles requests related to student resources.
 *
-* @author Omkar Abhiteja Badda <s537489@nwmissouri.edu>
+* @author Dheeraj Edupuganti <s537151@nwmissouri.edu>
 *
 */
 const express = require('express')

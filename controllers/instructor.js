@@ -2,7 +2,7 @@
 *  Instructors controller
 *  Handles requests related to insructor resources.
 *
-* @author Yugandhar Mamidi <s537159@nwmissouri.edu>
+* @author Sai chandu Gampa <s536883@nwmissouri.edu>
 *
 */
 const express = require('express')

@@ -2,7 +2,7 @@
 *  Course model
 *  Describes the characteristics of each attribute in a course resource.
 *
-* @author Anil Bomma <s537161@nwmissouri.edu>
+* @author  Alekhya Pochampally <s56776@nwmissouri.edu>
 * @requires mongoose
 *
 */
