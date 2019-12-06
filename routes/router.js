@@ -57,7 +57,7 @@ router.get('/section', (req, res, next) => {
 })
 
 // Defer path requests to a student controller
-router.use('/student', require('../controllers/student.js'))
+router.use('/student', require('../controllers/Student.js'))
 
 // Manage top-level request first
 router.get('/student', (req, res, next) => {
