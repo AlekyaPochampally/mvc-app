@@ -33,8 +33,8 @@ dotenv.config({ path: '.env' })
 LOG.info('Environment variables loaded into process.env.')
 
 // log port (Heroku issue)
-const port = process.env.PORT || 8089
-LOG.info(`Running on ${port}`)
+//const port = process.env.PORT || 8089
+//LOG.info(`Running on ${port}`)
 
 app.set('port',(process.env.PORT || 8089))
 
@@ -150,8 +150,8 @@ app.use((req, res) => { res.status(404).render('404.ejs') }) // handle page not 
 // call app.listen to start server
 const host = app.get('host')
 const env = app.get('env')
-
-app.listen(app.get('port') , () => {
+const port = app.get('port')
+app.listen(port , () => {
   console.log(`\nApp running at http://${host}:${port}/ in ${env} mode`)
   console.log('Press CTRL-C to stop\n')
 })
