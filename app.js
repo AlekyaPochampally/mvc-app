@@ -33,8 +33,10 @@ dotenv.config({ path: '.env' })
 LOG.info('Environment variables loaded into process.env.')
 
 // log port (Heroku issue)
-const port = process.env.PORT
+const port = process.env.PORT || 8089
 LOG.info(`Running on ${port}`)
+
+app.set('port',(process.env.PORT || 8089))
 
 // Are we in production or development?
 const isProduction = process.env.NODE_ENV === 'production'
@@ -114,7 +116,7 @@ connection.once('open', function () {
 })
 
 // configure app.settings.............................
-app.set('host', '0.0.0.0')
+app.set('host', process.env.HOST)
 
 // set the root view folder
 app.set('views', path.join(__dirname, 'views'))
@@ -146,10 +148,10 @@ LOG.info('Loaded routing.')
 app.use((req, res) => { res.status(404).render('404.ejs') }) // handle page not found errors
 
 // call app.listen to start server
-const host = '0.0.0.0'
+const host = app.get('host')
 const env = app.get('env')
 
-app.listen(process.env.PORT,host, () => {
+app.listen(app.get('port') , () => {
   console.log(`\nApp running at http://${host}:${port}/ in ${env} mode`)
   console.log('Press CTRL-C to stop\n')
 })
