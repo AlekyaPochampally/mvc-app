@@ -114,7 +114,7 @@ connection.once('open', function () {
 })
 
 // configure app.settings.............................
-app.set('host', process.env.HOST)
+app.set('host', '0.0.0.0')
 
 // set the root view folder
 app.set('views', path.join(__dirname, 'views'))
@@ -146,10 +146,10 @@ LOG.info('Loaded routing.')
 app.use((req, res) => { res.status(404).render('404.ejs') }) // handle page not found errors
 
 // call app.listen to start server
-const host = app.get('host')
+const host = '0.0.0.0'
 const env = app.get('env')
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT,host, () => {
   console.log(`\nApp running at http://${host}:${port}/ in ${env} mode`)
   console.log('Press CTRL-C to stop\n')
 })
