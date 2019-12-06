@@ -391,3 +391,7 @@
 {"message":"Handling GET /create [object Object]","level":"info"}
 {"message":"GET /instructor","level":"debug"}
 {"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
