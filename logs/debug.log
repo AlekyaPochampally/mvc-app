@@ -1,0 +1,358 @@
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Winter_1@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Winter_1@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"GET /favicon.ico","level":"debug"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /images/favicon-16x16.png","level":"debug"}
+{"message":"GET /images/favicon-96x96.png","level":"debug"}
+{"message":"GET /images/android-icon-192x192.png","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Winter_1@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Winter_1@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user1:Winter_1@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user1:Winter_1@cluster0-qfegi.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"POST /student/save","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"POST /section/save","level":"debug"}
+{"message":"Handling POST [object Object]","level":"info"}
+{"message":"{\"_id\":\"11\",\"sectionNumber\":\"12\",\"days\":\"mwr\",\"startTime\":\"1234\",\"roomNumber\":\"ch3500\",\"instructorId\":\"12\",\"courseId\":\"96\"}","level":"debug"}
+{"message":"NEW ID 11","level":"info"}
+{"message":"SAVING NEW item {\"days\":\"mwr\",\"startTime\":1234,\"roomNumber\":\"ch3500\",\"_id\":11,\"sectionNumber\":\"12\",\"instructorId\":12,\"courseId\":96,\"__v\":0}","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section/edit/11","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"days\":\"mwr\",\"startTime\":1234,\"roomNumber\":\"ch3500\",\"_id\":11,\"sectionNumber\":\"12\",\"instructorId\":12,\"courseId\":96,\"__v\":0}]","level":"info"}
+{"message":"POST /section/save/11","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=11","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6766434990155632045\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6766434990155632045\",\"$clusterTime\":{\"clusterTime\":\"6766434990155632045\",\"signature\":{\"hash\":\"o8+YWc2Odi9O8b168MDtqpbayDI=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"sectionNumber\":\"123\",\"days\":\"mw\",\"startTime\":\"12345\",\"roomNumber\":\"ch35\",\"instructorId\":\"123\",\"courseId\":\"95\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6766434990155632045\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6766434990155632045\",\"$clusterTime\":{\"clusterTime\":\"6766434990155632045\",\"signature\":{\"hash\":\"o8+YWc2Odi9O8b168MDtqpbayDI=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section/details/11","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"days\":\"mw\",\"startTime\":12345,\"roomNumber\":\"ch35\",\"_id\":11,\"sectionNumber\":\"123\",\"instructorId\":95,\"courseId\":95,\"__v\":0}]","level":"info"}
+{"message":"GET /section?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section/delete/11","level":"debug"}
+{"message":"Handling GET /delete/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"days\":\"mw\",\"startTime\":12345,\"roomNumber\":\"ch35\",\"_id\":11,\"sectionNumber\":\"123\",\"instructorId\":95,\"courseId\":95,\"__v\":0}]","level":"info"}
+{"message":"POST /section/delete/11","level":"debug"}
+{"message":"Handling DELETE request [object Object]","level":"info"}
+{"message":"Handling REMOVING ID=11","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /instructor/save","level":"debug"}
+{"message":"SAVING NEW item {\"given\":\"asd\",\"family\":\"asdf\",\"_id\":1112,\"email\":\"adfas@gmail.com\",\"salary\":123,\"github\":\"safhlaf\",\"__v\":0}","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/edit/1112","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"given\":\"asd\",\"family\":\"asdf\",\"_id\":1112,\"email\":\"adfas@gmail.com\",\"salary\":123,\"github\":\"safhlaf\",\"__v\":0}]","level":"info"}
+{"message":"GET /instructor/edit/1112","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"given\":\"asd\",\"family\":\"asdf\",\"_id\":1112,\"email\":\"adfas@gmail.com\",\"salary\":123,\"github\":\"safhlaf\",\"__v\":0}]","level":"info"}
+{"message":"GET /instructor?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/edit/1111","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"given\":\"Sadiq\",\"family\":\"Jaffar\",\"_id\":1111,\"email\":\"jafars@nwmissouri.edu\",\"salary\":44000,\"github\":\"jafarsadiq\"}]","level":"info"}
+{"message":"GET /instructor/details/1111","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"given\":\"Sadiq\",\"family\":\"Jaffar\",\"_id\":1111,\"email\":\"jafars@nwmissouri.edu\",\"salary\":44000,\"github\":\"jafarsadiq\"}]","level":"info"}
+{"message":"GET /instructor/details/1112","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"given\":\"asd\",\"family\":\"asdf\",\"_id\":1112,\"email\":\"adfas@gmail.com\",\"salary\":123,\"github\":\"safhlaf\",\"__v\":0}]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /instructor?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/edit/1112","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"given\":\"asd\",\"family\":\"asdf\",\"_id\":1112,\"email\":\"adfas@gmail.com\",\"salary\":123,\"github\":\"safhlaf\",\"__v\":0}]","level":"info"}
+{"message":"POST /instructor/save/1112","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=1112","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6766435466896998401\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6766435466896998401\",\"$clusterTime\":{\"clusterTime\":\"6766435466896998401\",\"signature\":{\"hash\":\"SIEfWKOl6kq+7JmGHyI9Zh01nkA=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"given\":\"a\",\"family\":\"asdf\",\"email\":\"dfas@gmail.com\",\"salary\":\"1234\",\"github\":\"safhlaf\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6766435466896998401\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6766435466896998401\",\"$clusterTime\":{\"clusterTime\":\"6766435466896998401\",\"signature\":{\"hash\":\"SIEfWKOl6kq+7JmGHyI9Zh01nkA=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor/delete/1112","level":"debug"}
+{"message":"Handling GET /delete/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"given\":\"a\",\"family\":\"asdf\",\"_id\":1112,\"email\":\"dfas@gmail.com\",\"salary\":1234,\"github\":\"safhlaf\",\"__v\":0}]","level":"info"}
+{"message":"POST /instructor/delete/111","level":"debug"}
+{"message":"Handling DELETE request [object Object]","level":"info"}
+{"message":"Handling REMOVING ID=111","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /course/save","level":"debug"}
+{"message":"POST /course/save","level":"debug"}
+{"message":"SAVING NEW item {\"schoolNumber\":\"12\",\"_id\":97,\"courseNumber\":\"314\",\"name\":\"asggs\",\"inSpring\":true,\"inSummer\":false,\"inFall\":false,\"__v\":0}","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course/edit/97","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"schoolNumber\":\"12\",\"_id\":97,\"courseNumber\":\"314\",\"name\":\"asggs\",\"inSpring\":true,\"inSummer\":false,\"inFall\":false,\"__v\":0}]","level":"info"}
+{"message":"POST /course/save/97","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=97","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6766435647285624833\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6766435647285624833\",\"$clusterTime\":{\"clusterTime\":\"6766435647285624833\",\"signature\":{\"hash\":\"VSVlEGSWHoPvv/VYenjAnDF7qqI=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"schoolNumber\":\"10\",\"courseNumber\":\"3145\",\"name\":\"asggs\",\"availability\":\"inSummer\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6766435647285624833\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6766435647285624833\",\"$clusterTime\":{\"clusterTime\":\"6766435647285624833\",\"signature\":{\"hash\":\"VSVlEGSWHoPvv/VYenjAnDF7qqI=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course/details/97","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"schoolNumber\":\"10\",\"_id\":97,\"courseNumber\":\"3145\",\"name\":\"asggs\",\"inSpring\":false,\"inSummer\":true,\"inFall\":false,\"__v\":0}]","level":"info"}
+{"message":"GET /course?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course/delete/97","level":"debug"}
+{"message":"Handling GET /delete/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"schoolNumber\":\"10\",\"_id\":97,\"courseNumber\":\"3145\",\"name\":\"asggs\",\"inSpring\":false,\"inSummer\":true,\"inFall\":false,\"__v\":0}]","level":"info"}
+{"message":"POST /course/delete/97","level":"debug"}
+{"message":"Handling DELETE request [object Object]","level":"info"}
+{"message":"Handling REMOVING ID=97","level":"info"}
+{"message":"GET /course/delete/97","level":"debug"}
+{"message":"Handling GET /delete/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"schoolNumber\":\"10\",\"_id\":97,\"courseNumber\":\"3145\",\"name\":\"asggs\",\"inSpring\":false,\"inSummer\":true,\"inFall\":false,\"__v\":0}]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /student/save","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /student/save","level":"debug"}
+{"message":"SAVING NEW item {\"gpa\":4,\"_id\":511,\"given\":\"asfsfd\",\"family\":\"sdfs\",\"email\":\"sdgsdg@gmail.com\",\"website\":\"AKJLFHASD\",\"github\":\"asjfha\",\"sectionId\":10,\"__v\":0}","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/edit/511","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"gpa\":4,\"_id\":511,\"given\":\"asfsfd\",\"family\":\"sdfs\",\"email\":\"sdgsdg@gmail.com\",\"website\":\"AKJLFHASD\",\"github\":\"asjfha\",\"sectionId\":10,\"__v\":0}]","level":"info"}
+{"message":"POST /student/save/511","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=511","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6766436802631827457\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6766436802631827457\",\"$clusterTime\":{\"clusterTime\":\"6766436802631827457\",\"signature\":{\"hash\":\"wy2AdPloKuCDNgig7FH4mNkgW6w=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"given\":\"a\",\"family\":\"sdf\",\"email\":\"sdgsg@gmail.com\",\"gpa\":\"3\",\"github\":\"asjfh\",\"website\":\"adas\",\"section_id\":\"10\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6766436802631827457\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6766436802631827457\",\"$clusterTime\":{\"clusterTime\":\"6766436802631827457\",\"signature\":{\"hash\":\"wy2AdPloKuCDNgig7FH4mNkgW6w=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/delete/511","level":"debug"}
+{"message":"Handling GET /delete/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"gpa\":3,\"_id\":511,\"given\":\"a\",\"family\":\"sdf\",\"email\":\"sdgsg@gmail.com\",\"website\":\"adas\",\"github\":\"asjfh\",\"sectionId\":null,\"__v\":0}]","level":"info"}
+{"message":"POST /student/delete/511","level":"debug"}
+{"message":"Handling DELETE request [object Object]","level":"info"}
+{"message":"Handling REMOVING ID=511","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/details/510","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"gpa\":4,\"_id\":510,\"given\":\"Deepak\",\"family\":\"Malampati\",\"email\":\"deepakm@gmail.com\",\"github\":\"github.com/deepakm\",\"website\":\"www.deepakm.com\",\"sectionId\":6}]","level":"info"}
+{"message":"GET /student?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /favicon.ico","level":"debug"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /images/favicon-32x32.png","level":"debug"}
+{"message":"GET /images/favicon-16x16.png","level":"debug"}
+{"message":"GET /images/favicon-96x96.png","level":"debug"}
+{"message":"GET /images/android-icon-192x192.png","level":"debug"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/edit/510","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"gpa\":4,\"_id\":510,\"given\":\"Deepak\",\"family\":\"Malampati\",\"email\":\"deepakm@gmail.com\",\"github\":\"github.com/deepakm\",\"website\":\"www.deepakm.com\",\"sectionId\":6}]","level":"info"}
+{"message":"GET /student?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/details/504","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"gpa\":3.8,\"_id\":504,\"given\":\"Sai\",\"family\":\"Kanth\",\"email\":\"saikth@gmail.com\",\"github\":\"github.com/kantsai\",\"website\":\"www.saikth.com\",\"sectionId\":3}]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /","level":"debug"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Running on 3004","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
