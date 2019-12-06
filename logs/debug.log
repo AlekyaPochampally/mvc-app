@@ -462,3 +462,178 @@
 {"message":"GET /","level":"debug"}
 {"message":"GET /section","level":"debug"}
 {"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/edit/510","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"gpa\":4,\"_id\":510,\"given\":\"Deepak\",\"family\":\"Malampati\",\"email\":\"deepakm@gmail.com\",\"github\":\"github.com/deepakm\",\"website\":\"www.deepakm.com\",\"sectionId\":6}]","level":"info"}
+{"message":"POST /student/save/510","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=510","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6767472375081467905\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767472375081467905\",\"$clusterTime\":{\"clusterTime\":\"6767472375081467905\",\"signature\":{\"hash\":\"Z6ETOwuX9k0UCCZRzoGrb7yBnQ4=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"given\":\"Dheeraj\",\"family\":\"Edupuganti\",\"email\":\"dheeraje@gmail.com\",\"gpa\":\"3\",\"github\":\"github.com/dheerajedupuganti\",\"website\":\"www.dheeraj.com\",\"section_id\":\"6\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6767472375081467905\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767472375081467905\",\"$clusterTime\":{\"clusterTime\":\"6767472375081467905\",\"signature\":{\"hash\":\"Z6ETOwuX9k0UCCZRzoGrb7yBnQ4=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/edit/510","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"gpa\":3,\"_id\":510,\"given\":\"Dheeraj\",\"family\":\"Edupuganti\",\"email\":\"dheeraje@gmail.com\",\"github\":\"github.com/dheerajedupuganti\",\"website\":\"www.dheeraj.com\",\"sectionId\":null}]","level":"info"}
+{"message":"POST /student/save/510","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=510","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":0,\"opTime\":{\"ts\":\"6767472443800944642\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767472443800944642\",\"$clusterTime\":{\"clusterTime\":\"6767472443800944642\",\"signature\":{\"hash\":\"G5+4bEvfpXK5sdGFQZZPma7Dl7U=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"given\":\"Dheeraj\",\"family\":\"Edupuganti\",\"email\":\"dheeraje@gmail.com\",\"gpa\":\"3\",\"github\":\"github.com/dheerajedupuganti\",\"website\":\"www.dheeraj.com\",\"section_id\":\"90\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":0,\"opTime\":{\"ts\":\"6767472443800944642\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767472443800944642\",\"$clusterTime\":{\"clusterTime\":\"6767472443800944642\",\"signature\":{\"hash\":\"G5+4bEvfpXK5sdGFQZZPma7Dl7U=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/edit/510","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"gpa\":3,\"_id\":510,\"given\":\"Dheeraj\",\"family\":\"Edupuganti\",\"email\":\"dheeraje@gmail.com\",\"github\":\"github.com/dheerajedupuganti\",\"website\":\"www.dheeraj.com\",\"sectionId\":null}]","level":"info"}
+{"message":"POST /student/save/510","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=510","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":0,\"opTime\":{\"ts\":\"6767472585534865458\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767472585534865458\",\"$clusterTime\":{\"clusterTime\":\"6767472585534865458\",\"signature\":{\"hash\":\"GzSMvMz4LPrrKI491yXTWF6n7ps=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"given\":\"Dheeraj\",\"family\":\"Edupuganti\",\"email\":\"dheeraje@gmail.com\",\"gpa\":\"3\",\"github\":\"github.com/dheerajedupuganti\",\"website\":\"www.dheeraj.com\",\"section_id\":\"90\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":0,\"opTime\":{\"ts\":\"6767472585534865458\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767472585534865458\",\"$clusterTime\":{\"clusterTime\":\"6767472585534865458\",\"signature\":{\"hash\":\"GzSMvMz4LPrrKI491yXTWF6n7ps=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section/edit/11","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"days\":\"667\",\"startTime\":8,\"roomNumber\":\"787\",\"_id\":11,\"sectionNumber\":\"54\",\"instructorId\":97,\"courseId\":97,\"__v\":0}]","level":"info"}
+{"message":"POST /section/save/11","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=11","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":0,\"opTime\":{\"ts\":\"6767472671434211378\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767472671434211378\",\"$clusterTime\":{\"clusterTime\":\"6767472671434211378\",\"signature\":{\"hash\":\"Ddwplmf7/C1GmYKScRDe84FXA5g=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"sectionNumber\":\"54\",\"days\":\"667\",\"startTime\":\"8\",\"roomNumber\":\"787\",\"instructorId\":\"97\",\"courseId\":\"97\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":0,\"opTime\":{\"ts\":\"6767472671434211378\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767472671434211378\",\"$clusterTime\":{\"clusterTime\":\"6767472671434211378\",\"signature\":{\"hash\":\"Ddwplmf7/C1GmYKScRDe84FXA5g=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section/edit/11","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"days\":\"667\",\"startTime\":8,\"roomNumber\":\"787\",\"_id\":11,\"sectionNumber\":\"54\",\"instructorId\":97,\"courseId\":97,\"__v\":0}]","level":"info"}
+{"message":"POST /section/save/11","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=11","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6767473079456104449\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767473079456104449\",\"$clusterTime\":{\"clusterTime\":\"6767473079456104449\",\"signature\":{\"hash\":\"hHM1xIkK8PwZ4C7oIWlgOlA6ei0=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"sectionNumber\":\"90\",\"days\":\"mtf\",\"startTime\":\"8\",\"roomNumber\":\"3500\",\"instructorId\":\"102\",\"courseId\":\"97\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6767473079456104449\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767473079456104449\",\"$clusterTime\":{\"clusterTime\":\"6767473079456104449\",\"signature\":{\"hash\":\"hHM1xIkK8PwZ4C7oIWlgOlA6ei0=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /course","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section/edit/11","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"days\":\"mtf\",\"startTime\":8,\"roomNumber\":\"3500\",\"_id\":11,\"sectionNumber\":\"90\",\"instructorId\":97,\"courseId\":97,\"__v\":0}]","level":"info"}
+{"message":"POST /section/save/11","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=11","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6767473221190025217\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767473221190025217\",\"$clusterTime\":{\"clusterTime\":\"6767473221190025217\",\"signature\":{\"hash\":\"J5vUwsny74zB4yfeXXiZgNLnqZc=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"sectionNumber\":\"90\",\"days\":\"MTF\",\"startTime\":\"8\",\"roomNumber\":\"3500\",\"instructorId\":\"97\",\"courseId\":\"97\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6767473221190025217\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767473221190025217\",\"$clusterTime\":{\"clusterTime\":\"6767473221190025217\",\"signature\":{\"hash\":\"J5vUwsny74zB4yfeXXiZgNLnqZc=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section/edit/10","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"days\":\"MWF\",\"startTime\":500,\"roomNumber\":\"CH 2500\",\"_id\":10,\"sectionNumber\":\"10\",\"instructorId\":999,\"courseId\":99}]","level":"info"}
+{"message":"POST /section/save/10","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=10","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6767473367218913281\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767473367218913281\",\"$clusterTime\":{\"clusterTime\":\"6767473367218913281\",\"signature\":{\"hash\":\"Qfv4SyTAe56LswZgnqcIhfMEfy4=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"sectionNumber\":\"91\",\"days\":\"MWF\",\"startTime\":\"8\",\"roomNumber\":\"2500\",\"instructorId\":\"57\",\"courseId\":\"99\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":1,\"opTime\":{\"ts\":\"6767473367218913281\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767473367218913281\",\"$clusterTime\":{\"clusterTime\":\"6767473367218913281\",\"signature\":{\"hash\":\"Qfv4SyTAe56LswZgnqcIhfMEfy4=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section/details/10","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"days\":\"MWF\",\"startTime\":8,\"roomNumber\":\"2500\",\"_id\":10,\"sectionNumber\":\"91\",\"instructorId\":99,\"courseId\":99}]","level":"info"}
+{"message":"GET /section?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /instructor","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"Environment variables loaded into process.env.","level":"info"}
+{"message":"Environment isProduction = true","level":"info"}
+{"message":"MongoDB URL = mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority","level":"info"}
+{"message":"Loaded routing.","level":"info"}
+{"message":"MongoDB event open","level":"info"}
+{"message":"MongoDB connected mongodb+srv://user_1:chandu@123@cluster0-op2js.mongodb.net/test?retryWrites=true&w=majority\n","level":"info"}
+{"message":"Seeding collection = developers","level":"info"}
+{"message":"Seeding collection = courses","level":"info"}
+{"message":"Seeding collection = instructors","level":"info"}
+{"message":"Seeding collection = sections","level":"info"}
+{"message":"Seeding collection = students","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/edit/510","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"gpa\":3,\"_id\":510,\"given\":\"Dheeraj\",\"family\":\"Edupuganti\",\"email\":\"dheeraje@gmail.com\",\"github\":\"github.com/dheerajedupuganti\",\"website\":\"www.dheeraj.com\",\"sectionId\":null}]","level":"info"}
+{"message":"POST /student/save/510","level":"debug"}
+{"message":"Handling SAVE request [object Object]","level":"info"}
+{"message":"Handling SAVING ID=510","level":"info"}
+{"message":"ORIGINAL VALUES {\"n\":1,\"nModified\":0,\"opTime\":{\"ts\":\"6767475677911318582\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767475677911318582\",\"$clusterTime\":{\"clusterTime\":\"6767475677911318582\",\"signature\":{\"hash\":\"Dx8ZO1DzhXYnerpVCs29QerxCQA=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"UPDATED VALUES: {\"given\":\"Dheeraj\",\"family\":\"Edupuganti\",\"email\":\"dheeraje@gmail.com\",\"gpa\":\"3\",\"github\":\"github.com/dheerajedupuganti\",\"website\":\"www.dheeraj.com\",\"section_id\":\"3\"}","level":"info"}
+{"message":"SAVING UPDATED item {\"n\":1,\"nModified\":0,\"opTime\":{\"ts\":\"6767475677911318582\",\"t\":1},\"electionId\":\"7fffffff0000000000000001\",\"ok\":1,\"operationTime\":\"6767475677911318582\",\"$clusterTime\":{\"clusterTime\":\"6767475677911318582\",\"signature\":{\"hash\":\"Dx8ZO1DzhXYnerpVCs29QerxCQA=\",\"keyId\":\"6766262147786735617\"}}}","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /section","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/details/510","level":"debug"}
+{"message":"Handling GET /details/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"gpa\":3,\"_id\":510,\"given\":\"Dheeraj\",\"family\":\"Edupuganti\",\"email\":\"dheeraje@gmail.com\",\"github\":\"github.com/dheerajedupuganti\",\"website\":\"www.dheeraj.com\",\"sectionId\":null}]","level":"info"}
+{"message":"GET /student?","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/create","level":"debug"}
+{"message":"Handling GET /create [object Object]","level":"info"}
+{"message":"POST /student/save","level":"debug"}
+{"message":"SAVING NEW item {\"gpa\":3,\"_id\":511,\"given\":\"sad@gmail.com\",\"family\":\"adfa\",\"email\":\"sad@gmail.com\",\"website\":\"sad@gmail.com\",\"github\":\"sad@gmail.com\",\"sectionId\":12,\"__v\":0}","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/delete/510","level":"debug"}
+{"message":"Handling GET /delete/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR [{\"gpa\":3,\"_id\":510,\"given\":\"Dheeraj\",\"family\":\"Edupuganti\",\"email\":\"dheeraje@gmail.com\",\"github\":\"github.com/dheerajedupuganti\",\"website\":\"www.dheeraj.com\",\"sectionId\":null}]","level":"info"}
+{"message":"POST /student/delete/510","level":"debug"}
+{"message":"Handling DELETE request [object Object]","level":"info"}
+{"message":"Handling REMOVING ID=510","level":"info"}
+{"message":"GET /student","level":"debug"}
+{"message":"Handling GET / [object Object]","level":"info"}
+{"message":"GET /student/edit/511","level":"debug"}
+{"message":"Handling GET /edit/:id [object Object]","level":"info"}
+{"message":"RETURNING VIEW FOR[{\"gpa\":3,\"_id\":511,\"given\":\"sad@gmail.com\",\"family\":\"adfa\",\"email\":\"sad@gmail.com\",\"website\":\"sad@gmail.com\",\"github\":\"sad@gmail.com\",\"sectionId\":12,\"__v\":0}]","level":"info"}
