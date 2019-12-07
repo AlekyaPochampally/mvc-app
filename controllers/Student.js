@@ -106,7 +106,7 @@ api.post('/save', (req, res) => {
   item.gpa = req.body.gpa
   item.website = req.body.website
   item.github = req.body.github
-  item.sectionId = req.body.section_id
+  item.sectionId = req.body.sectionId
   // res.send(`THIS FUNCTION WILL SAVE A NEW student ${JSON.stringify(item)}`)
   item.save((err) => {
     if (err) {
